@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* just some  styling*/
+        body {
+            padding: 100px;
+            text-align: center;
+
+        }
+
+        /* heart div class - in html i used just a simple html simbol entity for heart sign, you can use text or whatever u want*/
+
+        .heart {
+            font-size: 150px;
+            color: #e00;
+            animation: beat 0.26s infinite alternate;
+            transform-origin: center;
+        }
+
+        /* Heart beat animation */
+        @keyframes beat {
+            to {
+                transform: scale(2.5);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heart">&#x2665;</div>
+    <h1>Follow the heartbeat</h1>
+</body>
+
+</html>
